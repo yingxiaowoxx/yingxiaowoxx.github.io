@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>CSapp_Chapter1</title>
+    <link href="/Computer-Science/CSapp-Chapter-1/"/>
+    <url>/Computer-Science/CSapp-Chapter-1/</url>
+    
+    <content type="html"><![CDATA[<h3 id="Chapter-1"><a href="#Chapter-1" class="headerlink" title="Chapter 1"></a>Chapter 1</h3><p>The life of <em>hello.c</em>:</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs C"><span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;stdio.h&gt;</span></span><br><br><span class="hljs-type">int</span> <span class="hljs-title function_">main</span><span class="hljs-params">()</span>&#123;<br>    <span class="hljs-built_in">printf</span>(<span class="hljs-string">&#x27;Hello world!&#x27;</span>);<br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure><p><img src="https://raw.githubusercontent.com/yingxiaowoxx/Blog-img/master/img/life_time_of_hello.png" alt="life_time_of_hello"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Computer Science</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Computer Scinece</tag>
+      
+      <tag>Programming</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello_world</title>
+    <link href="/Notes/Hello_world/"/>
+    <url>/Notes/Hello_world/</url>
+    
+    <content type="html"><![CDATA[<h3 id="Hello！"><a href="#Hello！" class="headerlink" title="Hello！"></a>Hello！</h3><p>这是一次建立博客的尝试，本博客采用<a href="https://hexo.io/" title="hexo">hexo</a>博客框架,并且部署于<a href="https://github.com/" title="Github">Github</a>的服务器中，本博客仅作为本人的笔记站及交流学习使用，未经许可，不得转载。</p><hr><h3 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h3><p>在日常的使用过程之中，使用<code>$ hexo new post &quot;post_name&quot; </code>新建一页博客，通过编辑之后，使用<code>$ hexo s</code>进行本地查看和管理。</p><p>在本地的调试完成之后，通过<code>$ hexo g</code>生成静态文件至public文件夹，使用<code>$ hexo d</code>将生成的静态文件push到对应的<a href="%22https://github.com/yingxiaowoxx/yingxiaowoxx.github.io%22" title="yingxiaowoxx.github.io">Github</a>仓库中，最后使用<code>$ hexo clean</code>清除本地缓存。</p><p>使用过程之中，<em>Markdown</em>的官方语法通过查询<a href="https://www.markdownguide.org/basic-syntax/" title="Markdown Guide">Markdown官方网站</a>实现。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Notes</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Notes</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
