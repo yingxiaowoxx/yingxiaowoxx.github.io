@@ -31,8 +31,10 @@
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/yingxiaowoxx/Blog-img/img/An_example_o_a_memory_hierarchy..png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/yingxiaowoxx/Blog-img/img/Operating_System.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/yingxiaowoxx/Blog-img/img/Abstractions.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/yingxiaowoxx/Blog-img/img/Process_context_switch.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/yingxiaowoxx/Blog-img/img/Process_virtual_address_space..png">
 <meta property="article:published_time" content="2022-11-04T06:16:15.000Z">
-<meta property="article:modified_time" content="2022-11-10T14:31:34.147Z">
+<meta property="article:modified_time" content="2022-11-12T06:03:56.752Z">
 <meta property="article:author" content="XX">
 <meta property="article:tag" content="Computer Scinece">
 <meta property="article:tag" content="Programming">
@@ -229,7 +231,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          2.1k words
+          3.5k words
         
       </span>
     
@@ -240,7 +242,7 @@
         
         
         
-          18 mins
+          30 mins
         
       </span>
     
@@ -324,6 +326,25 @@ This book is written from a programmer's perspective which describes how applica
 <li>To provide <strong>applications with simple and uniform mechanisms</strong> for manipulating complicated and often wildly different low-level hardware devices.</li>
 </ol>
 <p>The operating system achieves both goals via the fundamental abstractions shown bellow: <em>processes, virtual memory, and<br>files</em>.<br><img src="https://cdn.jsdelivr.net/gh/yingxiaowoxx/Blog-img/img/Abstractions.png" srcset="/img/loading.gif" lazyload alt="Abstractions"></p>
+<ul>
+<li><p><em>Process</em>: A <em>process</em> is <strong>the operating system’s abstraction for a running program</strong>. Multiple processes can run concurrently on the same system, and each process appears to have exclusive use of the hardware. At any point in time, a uniprocessor system can only execute the code for a single process.When the operating system decides to transfer control from the current process to some new process, it performs a context switch.<br><img src="https://cdn.jsdelivr.net/gh/yingxiaowoxx/Blog-img/img/Process_context_switch.png" srcset="/img/loading.gif" lazyload alt="Process_context_switch"></p>
+</li>
+<li><p><em>Threads</em> :Although we normally think of a process as having a single control flow, in modern systems a <strong>process can actually consist of multiple execution units</strong>, called <em>threads</em>, each running in the context of the process and sharing the same code and global data.</p>
+</li>
+<li><p><em>Virtual Memory</em>: It is an abstraction that provides each process with the illusion that it as exclusive use of the main memory. Each process has the same uniform view of memory, which is known as its <em>virtual address space</em>. The basic idea is to <strong>store</strong> the contents of a process’s virtual memory <strong>on disk</strong>, and then <strong>use</strong> the main memory as a cache <strong>for the disk</strong>.</p>
+<ul>
+<li><em>Program code and data</em>: Code begins at the same <strong>fixed address</strong> for all processes, followed by data locations that correspond to globalCvariables.</li>
+<li><em>Heap</em>: It <strong>expands and contracts dynamically</strong> at run time as a result of calls to C standard library routines such as <em>malloc</em> and <em>free</em>.</li>
+<li><em>Shared libraries</em>: Such as the <em>C standard library</em> and the <em>math library</em>.</li>
+<li><em>Stack</em>: Where the compiler uses to implement function calls.Like the heap, it expands and contracts dynamically during the execution of the program.</li>
+<li><em>Kernel virtual memory</em>: The kernel is <strong>the part of the operating system</strong> that is always resident in memory.</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/yingxiaowoxx/Blog-img/img/Process_virtual_address_space..png" srcset="/img/loading.gif" lazyload alt="Process_virtual_address_space."></p>
+<ul>
+<li><em>File</em>: It is a sequence of bytes.</li>
+</ul>
 <p><i><font color="gray">To Be Continued…</font></i></p>
 
                 
@@ -391,7 +412,7 @@ This book is written from a programmer's perspective which describes how applica
       
         <div class="license-meta-item license-meta-date">
           <div>Updated on</div>
-          <div>November 10, 2022</div>
+          <div>November 12, 2022</div>
         </div>
       
       
