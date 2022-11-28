@@ -16,17 +16,18 @@
   <meta name="author" content="XX">
   <meta name="keywords" content="">
   
-    <meta name="description" content=".center  {   width: auto;   display: table;   margin-left: auto;   margin-right: auto; }   Computer System A Programmers Perspective">
+    <meta name="description" content="Computer System A Programmers Perspective">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CSapp-Chapter2">
 <meta property="og:url" content="http://xxblog.net/Computer-Science/CSapp-Chapter-2/index.html">
 <meta property="og:site_name" content="XX&#39;s Blog">
-<meta property="og:description" content=".center  {   width: auto;   display: table;   margin-left: auto;   margin-right: auto; }   Computer System A Programmers Perspective">
+<meta property="og:description" content="Computer System A Programmers Perspective">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/yingxiaowoxx/Blog-img/img/20221115202427.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/yingxiaowoxx/Blog-img/img/20221116103317.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/yingxiaowoxx/Blog-img/img/20221118163942.png">
 <meta property="article:published_time" content="2022-11-15T11:59:00.000Z">
-<meta property="article:modified_time" content="2022-11-18T08:07:57.560Z">
+<meta property="article:modified_time" content="2022-11-28T05:16:03.500Z">
 <meta property="article:author" content="XX">
 <meta property="article:tag" content="Computer Scinece">
 <meta property="article:tag" content="Programming">
@@ -223,7 +224,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          2.2k words
+          3.6k words
         
       </span>
     
@@ -234,7 +235,7 @@
         
         
         
-          19 mins
+          31 mins
         
       </span>
     
@@ -278,6 +279,10 @@
               <div class="markdown-body">
                 
                 <hr>
+<center>
+<font size ='5'><i>Computer System A Programmers Perspective</i></font>
+</center>
+<span id="more"></span>
 <style>
 .center 
 {
@@ -287,10 +292,6 @@
   margin-right: auto;
 }
 </style>
-<center>
-<font size ='5'><i>Computer System A Programmers Perspective</i></font>
-</center>
-<span id="more"></span>
 This book is written from a programmer's perspective which describes how application programmers can use their knowledge of a system to write better programs. 
 
 <hr>
@@ -304,6 +305,7 @@ This book is written from a programmer's perspective which describes how applica
 <li><em>Two’s-complement encodings</em> are the most common way to represent signed integers, that is, numbers that may be either positive or negative.</li>
 <li><em>Floating-point encodings</em> are a base-two version of scientific notation for<br>representing real numbers.</li>
 </ul>
+<hr>
 <h3 id="2-1-Information-Storage"><a href="#2-1-Information-Storage" class="headerlink" title="2.1 Information Storage"></a>2.1 Information Storage</h3><h4 id="Hexadecimal-Notation"><a href="#Hexadecimal-Notation" class="headerlink" title="Hexadecimal Notation"></a>Hexadecimal Notation</h4><p>Numeric constants starting with 0x or 0X are interpreted as being in <em>hexadecimal</em>, (or simply <em>“hex”</em>).<br><img src="https://cdn.jsdelivr.net/gh/yingxiaowoxx/Blog-img/img/20221115202427.png" srcset="/img/loading.gif" lazyload alt="Hexadecimal notation"></p>
 <h4 id="Words"><a href="#Words" class="headerlink" title="Words"></a>Words</h4><p>for a machine with a w-bit word size, the virtual addresses can range from 0 to 2w − 1, giving the program access to at most 2w bytes.</p>
 <h4 id="Addressing-and-Byte-Ordering"><a href="#Addressing-and-Byte-Ordering" class="headerlink" title="Addressing and Byte Ordering"></a>Addressing and Byte Ordering</h4><p><em>Little endian</em>： The former convention—where the least significant byte comes first.(This convention is followed by most Intel-compatible machines.)<br><em>Big endian</em>: The latter convention—where the most significant byte comes first.<br>Supposing the variable x of type int and at address 0x100 has a hexadecimal value of 0x01234567.(This convention is followed by most machines from IBM and Sun Microsystems.)<br><img src="https://cdn.jsdelivr.net/gh/yingxiaowoxx/Blog-img/img/20221116103317.png" srcset="/img/loading.gif" lazyload alt="Example"></p>
@@ -343,10 +345,18 @@ This book is written from a programmer's perspective which describes how applica
 </tbody></table>
 </div>
 
+<hr>
 <h3 id="2-2-Integer-Representations"><a href="#2-2-Integer-Representations" class="headerlink" title="2.2 Integer Representations"></a>2.2 Integer Representations</h3><h4 id="Unsigned-Encodings"><a href="#Unsigned-Encodings" class="headerlink" title="Unsigned Encodings"></a>Unsigned Encodings</h4><p>$B2U_{w}$(for “binary to unsigned,” length w):</p>
 <p>$B2U_{w}(\vec{x})\doteq\sum_{i&#x3D;0}^{w-1}x_{i}2^i$</p>
 <h4 id="Two’s-Complement-Encodings"><a href="#Two’s-Complement-Encodings" class="headerlink" title="Two’s-Complement Encodings"></a>Two’s-Complement Encodings</h4><p>$B2T_{w}$ (for “binary to two’s-complement” length w):</p>
 <p>$B2T_{w}(\vec{x})\doteq-x_{w-1}2^{w-1}+\sum_{i&#x3D;0}^{w-2}x_{i}2^i$</p>
+<h4 id="Signed-vs-Unsigned-in-C"><a href="#Signed-vs-Unsigned-in-C" class="headerlink" title="Signed vs. Unsigned in C"></a>Signed vs. Unsigned in C</h4><p>Although the C standard does not specify a particular representation of signed numbers, almost all machines use <strong>two’s complement</strong>. Generally, <strong>most numbers are signed by default</strong>. For example, when declaring a constant such as 12345 or 0x1A2B, the value is considered signed. <strong>Adding character ‘U’ or ‘u’</strong> as a suffix creates an unsigned constant, e.g., 12345U or 0x1A2Bu.</p>
+<p>When an operation is performed where one operand is <strong>signed</strong> and the other is <strong>unsigned</strong>, C implicitly casts the signed argument to unsigned and performs the operations assuming<br>the numbers are <strong>nonnegative</strong>.<br><img src="https://cdn.jsdelivr.net/gh/yingxiaowoxx/Blog-img/img/20221118163942.png" srcset="/img/loading.gif" lazyload alt="Effects of C promotion rules."></p>
+<h4 id="Expanding-the-Bit-Representation-of-a-Number"><a href="#Expanding-the-Bit-Representation-of-a-Number" class="headerlink" title="Expanding the Bit Representation of a Number"></a>Expanding the Bit Representation of a Number</h4><p>To convert an <strong>unsigned number</strong> to a larger data type, we can simply add leading zeros to the representation; this operation is known as <em>zero extension</em>$[x_{w-1},x_{w-2},\cdots,x_{0}]$. For converting a <strong>two’scomplement number</strong> to a larger data type, the rule is to perform a <em>sign extension</em>, adding copies of the most significant bit to the representation $[x_{w-1},\cdots,x_{w-1},x_{w-1},x_{w-2},\cdots,x_{0}]$.</p>
+<p>As an example, consider the following code:</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs C"><span class="hljs-type">short</span> sx = <span class="hljs-number">-12345</span>; <span class="hljs-comment">/* -12345 */</span><br><span class="hljs-type">unsigned</span> <span class="hljs-type">short</span> usx = sx; <span class="hljs-comment">/* 53191 */</span><br><span class="hljs-type">int</span> x = sx; <span class="hljs-comment">/* -12345 */</span><br><span class="hljs-type">unsigned</span> ux = usx; <span class="hljs-comment">/* 53191 */</span><br><br><span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;sx = %d:\t&quot;</span>, sx);<br>show_bytes((byte_pointer) &amp;sx, <span class="hljs-keyword">sizeof</span>(<span class="hljs-type">short</span>));<br><span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;usx = %u:\t&quot;</span>, usx);<br>show_bytes((byte_pointer) &amp;usx, <span class="hljs-keyword">sizeof</span>(<span class="hljs-type">unsigned</span> <span class="hljs-type">short</span>));<br><span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;x = %d:\t&quot;</span>, x);<br>show_bytes((byte_pointer) &amp;x, <span class="hljs-keyword">sizeof</span>(<span class="hljs-type">int</span>));<br><span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;ux = %u:\t&quot;</span>, ux);<br>show_bytes((byte_pointer) &amp;ux, <span class="hljs-keyword">sizeof</span>(<span class="hljs-type">unsigned</span>));<br></code></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs C"><span class="hljs-comment">//output</span><br>sx = <span class="hljs-number">-12345</span>: cf c7<br>usx = <span class="hljs-number">53191</span>: cf c7<br>x = <span class="hljs-number">-12345</span>: ff ff cf c7<br>ux = <span class="hljs-number">53191</span>: <span class="hljs-number">00</span> <span class="hljs-number">00</span> cf c7<br></code></pre></td></tr></table></figure>
+
 <p><i><font color="gray">To be continued…</font></i></p>
 
                 
@@ -414,7 +424,7 @@ This book is written from a programmer's perspective which describes how applica
       
         <div class="license-meta-item license-meta-date">
           <div>Updated on</div>
-          <div>November 18, 2022</div>
+          <div>November 28, 2022</div>
         </div>
       
       
