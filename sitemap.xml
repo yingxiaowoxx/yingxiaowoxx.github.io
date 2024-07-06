@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xxblog.net/Computer-Science/Cheat-sheet/</loc>
+    
+    <lastmod>2024-07-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://xxblog.net/Linux/My-workflow/</loc>
     
     <lastmod>2024-07-06</lastmod>
@@ -13,16 +22,7 @@
   <url>
     <loc>http://xxblog.net/Mathematics/Probability-Theory/</loc>
     
-    <lastmod>2023-03-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://xxblog.net/Hello-world/Hello_world/</loc>
-    
-    <lastmod>2023-03-20</lastmod>
+    <lastmod>2024-07-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -30,6 +30,15 @@
   
   <url>
     <loc>http://xxblog.net/Linux/Linux-Course/</loc>
+    
+    <lastmod>2024-07-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://xxblog.net/Hello-world/Hello_world/</loc>
     
     <lastmod>2023-03-20</lastmod>
     

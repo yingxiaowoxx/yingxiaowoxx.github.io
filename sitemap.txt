@@ -1,7 +1,8 @@
+http://xxblog.net/Computer-Science/Cheat-sheet/
 http://xxblog.net/Linux/My-workflow/
 http://xxblog.net/Mathematics/Probability-Theory/
-http://xxblog.net/Hello-world/Hello_world/
 http://xxblog.net/Linux/Linux-Course/
+http://xxblog.net/Hello-world/Hello_world/
 http://xxblog.net/Computer-Science/CSapp-Chapter-3/
 http://xxblog.net/Computer-Science/CSapp-Chapter-1/
 http://xxblog.net/Computer-Science/CSapp-Chapter-2/

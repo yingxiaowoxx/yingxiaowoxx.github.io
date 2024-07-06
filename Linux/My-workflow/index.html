@@ -16,19 +16,19 @@
   <meta name="author" content="XX">
   <meta name="keywords" content="">
   
-    <meta name="description" content="My personal workflow with Nvim + TmuxExperience is everything!These settings can make you focus on your workflow and improve coding efficiency. You can also find this page in my blog. iTerm2 + Oh My Z">
+    <meta name="description" content="My personal workflow with Nvim + Tmux">
 <meta property="og:type" content="article">
 <meta property="og:title" content="My_workflow">
 <meta property="og:url" content="http://xxblog.net/Linux/My-workflow/index.html">
 <meta property="og:site_name" content="XX&#39;s Blog">
-<meta property="og:description" content="My personal workflow with Nvim + TmuxExperience is everything!These settings can make you focus on your workflow and improve coding efficiency. You can also find this page in my blog. iTerm2 + Oh My Z">
+<meta property="og:description" content="My personal workflow with Nvim + Tmux">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://raw.githubusercontent.com/yingxiaowoxx/Blog-img/master/img/93d1e7654df592a51374330b508c1106.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/yingxiaowoxx/Blog-img/master/img/20230324153531.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/yingxiaowoxx/Blog-img/master/img/20230324150528.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/yingxiaowoxx/Blog-img/master/img/20230324144855.png">
 <meta property="article:published_time" content="2024-07-06T14:30:05.000Z">
-<meta property="article:modified_time" content="2024-07-06T14:31:44.085Z">
+<meta property="article:modified_time" content="2024-07-06T16:17:28.541Z">
 <meta property="article:author" content="XX">
 <meta property="article:tag" content="Tmux">
 <meta property="article:tag" content="Neovim">
@@ -280,7 +280,13 @@
             
               <div class="markdown-body">
                 
-                <h1 id="My-personal-workflow-with-Nvim-Tmux"><a href="#My-personal-workflow-with-Nvim-Tmux" class="headerlink" title="My personal workflow with Nvim + Tmux"></a>My personal workflow with Nvim + Tmux</h1><p><strong><em>Experience is everything!</em></strong><br>These settings can make you focus on your workflow and improve coding efficiency.</p>
+                <center>
+<font size ='5'><i>My personal workflow with Nvim + Tmux</i></font>
+</center>
+<span id="more"></span>
+
+<hr>
+<p><strong><em>Experience is everything!</em></strong><br>These settings can make you focus on your workflow and improve coding efficiency.</p>
 <p>You can also find this page in my <a href="https://xxblog.net/Tools/My-workflow/">blog</a>.<br><img src="https://raw.githubusercontent.com/yingxiaowoxx/Blog-img/master/img/93d1e7654df592a51374330b508c1106.png" srcset="/img/loading.gif" lazyload alt="My work flow"></p>
 <h2 id="iTerm2-Oh-My-Zsh"><a href="#iTerm2-Oh-My-Zsh" class="headerlink" title="iTerm2 + Oh My Zsh"></a>iTerm2 + Oh My Zsh</h2><p>It is a pretty nice combination to make your terminal so much better!</p>
 <h3 id="Requirement"><a href="#Requirement" class="headerlink" title="Requirement"></a>Requirement</h3><blockquote>
@@ -332,7 +338,7 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">mkdir</span> ~/.config/nvim<br></code></pre></td></tr></table></figure>
 
 <p>And then just clone my respository.<br>The folder structure looks like this:</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><code class="hljs stylus">.<br>├── init<span class="hljs-selector-class">.lua</span><br>├── lua<br>│   └── xx<br>│       ├── core<br>│       │   ├── colorscheme<span class="hljs-selector-class">.lua</span><br>│       │   ├── keymaps<span class="hljs-selector-class">.lua</span><br>│       │   └── options<span class="hljs-selector-class">.lua</span><br>│       ├── plugins<br>│       │   ├── autopair<span class="hljs-selector-class">.lua</span><br>│       │   ├── comment<span class="hljs-selector-class">.lua</span><br>│       │   ├── gitsigns<span class="hljs-selector-class">.lua</span><br>│       │   ├── lsp<br>│       │   │   ├── lspconfig<span class="hljs-selector-class">.lua</span><br>│       │   │   ├── lspsaga<span class="hljs-selector-class">.lua</span><br>│       │   │   ├── mason<span class="hljs-selector-class">.lua</span><br>│       │   │   └── null-la<span class="hljs-selector-class">.lua</span><br>│       │   ├── lualine<span class="hljs-selector-class">.lua</span><br>│       │   ├── nvim-cmp<span class="hljs-selector-class">.lua</span><br>│       │   ├── nvim-tree<span class="hljs-selector-class">.lua</span><br>│       │   ├── telescope<span class="hljs-selector-class">.lua</span><br>│       │   └── treesitter<span class="hljs-selector-class">.lua</span><br>│       └── plugins-setup<span class="hljs-selector-class">.lua</span><br>└── plugin<br>    └── packer_compiled.lua<br></code></pre></td></tr></table></figure>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><code class="hljs stylus">.<br>├── init<span class="hljs-selector-class">.lua</span><br>├── lua<br>│   └── your_username<br>│       ├── core<br>│       │   ├── colorscheme<span class="hljs-selector-class">.lua</span><br>│       │   ├── keymaps<span class="hljs-selector-class">.lua</span><br>│       │   └── options<span class="hljs-selector-class">.lua</span><br>│       ├── plugins<br>│       │   ├── autopair<span class="hljs-selector-class">.lua</span><br>│       │   ├── comment<span class="hljs-selector-class">.lua</span><br>│       │   ├── gitsigns<span class="hljs-selector-class">.lua</span><br>│       │   ├── lsp<br>│       │   │   ├── lspconfig<span class="hljs-selector-class">.lua</span><br>│       │   │   ├── lspsaga<span class="hljs-selector-class">.lua</span><br>│       │   │   ├── mason<span class="hljs-selector-class">.lua</span><br>│       │   │   └── null-la<span class="hljs-selector-class">.lua</span><br>│       │   ├── lualine<span class="hljs-selector-class">.lua</span><br>│       │   ├── nvim-cmp<span class="hljs-selector-class">.lua</span><br>│       │   ├── nvim-tree<span class="hljs-selector-class">.lua</span><br>│       │   ├── telescope<span class="hljs-selector-class">.lua</span><br>│       │   └── treesitter<span class="hljs-selector-class">.lua</span><br>│       └── plugins-setup<span class="hljs-selector-class">.lua</span><br>└── plugin<br>    └── packer_compiled.lua<br></code></pre></td></tr></table></figure>
 
 <p>It will be look like this:<br><img src="https://raw.githubusercontent.com/yingxiaowoxx/Blog-img/master/img/20230324150528.png" srcset="/img/loading.gif" lazyload alt="Neovim"></p>
 <h2 id="Tmux"><a href="#Tmux" class="headerlink" title="Tmux"></a>Tmux</h2><h3 id="Requirement-2"><a href="#Requirement-2" class="headerlink" title="Requirement"></a>Requirement</h3><p>Please ensure you have installed <a target="_blank" rel="noopener" href="https://github.com/tmux/tmux/wiki">tmux</a> first.</p>
@@ -409,7 +415,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>Updated on</div>
-          <div>July 6, 2024</div>
+          <div>July 7, 2024</div>
         </div>
       
       
@@ -440,12 +446,18 @@
                   <article class="post-prev col-6">
                     
                     
+                      <a href="/Computer-Science/Cheat-sheet/" title="Cheat_Sheet">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Cheat_Sheet</span>
+                        <span class="visible-mobile">Previous</span>
+                      </a>
+                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/Linux/Linux-Course/" title="Linux-Course">
-                        <span class="hidden-mobile">Linux-Course</span>
+                      <a href="/Linux/Linux-Course/" title="Linux_Course">
+                        <span class="hidden-mobile">Linux_Course</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

@@ -16,23 +16,26 @@
   <meta name="author" content="XX">
   <meta name="keywords" content="">
   
-    <meta name="description" content="This blog just works as a formula stack.">
+    <meta name="description" content="This blog records my workflow cheat sheet.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Probability_Theory">
-<meta property="og:url" content="http://xxblog.net/Mathematics/Probability-Theory/index.html">
+<meta property="og:title" content="Cheat_Sheet">
+<meta property="og:url" content="http://xxblog.net/Computer-Science/Cheat-sheet/index.html">
 <meta property="og:site_name" content="XX&#39;s Blog">
-<meta property="og:description" content="This blog just works as a formula stack.">
+<meta property="og:description" content="This blog records my workflow cheat sheet.">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2022-11-08T02:40:10.000Z">
-<meta property="article:modified_time" content="2024-07-06T16:17:28.400Z">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/yingxiaowoxx/Blog-img/img/20240706234458.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/yingxiaowoxx/Blog-img/master/img/20230324150528.png">
+<meta property="article:published_time" content="2024-07-06T15:11:16.000Z">
+<meta property="article:modified_time" content="2024-07-06T16:44:31.809Z">
 <meta property="article:author" content="XX">
-<meta property="article:tag" content="Math">
-<meta property="article:tag" content="Probability Theory">
+<meta property="article:tag" content="Computer Scinece">
+<meta property="article:tag" content="Programming">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/yingxiaowoxx/Blog-img/img/20240706234458.png">
   
   
   
-  <title>Probability_Theory - XX&#39;s Blog</title>
+  <title>Cheat_Sheet - XX&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -198,7 +201,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Probability_Theory"></span>
+            <span id="subtitle" data-typed-text="Cheat_Sheet"></span>
           
         </div>
 
@@ -209,8 +212,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-11-08 10:40" pubdate>
-          November 8, 2022 am
+        <time datetime="2024-07-06 23:11" pubdate>
+          July 6, 2024 pm
         </time>
       </span>
     
@@ -221,7 +224,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          2.6k words
+          2k words
         
       </span>
     
@@ -232,7 +235,7 @@
         
         
         
-          22 mins
+          17 mins
         
       </span>
     
@@ -270,48 +273,172 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Probability_Theory</h1>
+            <h1 style="display: none">Cheat_Sheet</h1>
             
             
               <div class="markdown-body">
                 
                 <center>
-<font size ='5'><i>This blog just works as a formula stack.</i></font>
+<font size ='5'><i>This blog records my workflow cheat sheet.</i></font>
 </center>
 <span id="more"></span>
 
 <hr>
-<!-- more -->
-
-<h2 id="Formula"><a href="#Formula" class="headerlink" title="Formula"></a>Formula</h2><h3 id="Law-of-Total-Probability"><a href="#Law-of-Total-Probability" class="headerlink" title="Law of Total Probability"></a>Law of Total Probability</h3><p><strong>IF</strong>: {${A_{i}:i&#x3D;1,2,3…,n}$} is a finite or countably infinite partition of a sample space.</p>
-<p><strong>THEN</strong> for any event $B$:<br>$$ P(B)&#x3D;\sum*{i&#x3D;1}^n P(A*{i})P(B|A_{i}) $$</p>
-<h3 id="Bayes’-Theorem"><a href="#Bayes’-Theorem" class="headerlink" title="Bayes’ Theorem"></a>Bayes’ Theorem</h3><p><strong>IF</strong>:{${A_{i}:i&#x3D;1,2,3,…,n}$} is a finite or countably infinite partition of a sample space (happens firstly), and $B$ is a fixed event(happens secondly).</p>
-<p><strong>THEN</strong> for any event $A_{k}(k\in{1,2,3,…,n})$:</p>
-<p>$$<br>P(A_{k}|B)&#x3D;\frac{P(A_{k})P(B|A_{k})}{\sum_{i&#x3D;1}^nP(A_{i})P(B|A_{i})}<br>$$</p>
-<h3 id="Binomial-Distribution-X-sim-B-n-p"><a href="#Binomial-Distribution-X-sim-B-n-p" class="headerlink" title="Binomial Distribution $X \sim B(n, p)$"></a>Binomial Distribution $X \sim B(n, p)$</h3><p><strong>IF</strong> the random variable $X$ follows the binomial distribution with and $p ∈ [0,1]$, we write $X \sim B(n, p)$.</p>
-<p><strong>THEN</strong>The probability of getting exactly <em>k successes in n independent Bernoulli trials</em> is given by the probability mass function :</p>
-<p>$$<br>P\left(X&#x3D;k\right)&#x3D;C_{n}^kp^k(1-p)^k<br>$$</p>
-<h3 id="Poisson-Distribution-X-sim-P-lambda"><a href="#Poisson-Distribution-X-sim-P-lambda" class="headerlink" title="Poisson Distribution $X \sim P(\lambda)$"></a>Poisson Distribution $X \sim P(\lambda)$</h3><p><strong>IF</strong> a discrete random variable X is said to have a Poisson distribution, with parameter $\lambda&gt;0$, we write $X \sim P(\lambda)$ or $X \sim \pi(\lambda)$.</p>
-<p><strong>THEN</strong> it has a probability mass function given by :</p>
-<p>$$<br>P\left(X&#x3D;k\right)&#x3D;\frac{\lambda^k}{k!}e^{-\lambda}<br>$$</p>
-<h3 id="Continuous-Uniform-Distribution-X-sim-U-a-b"><a href="#Continuous-Uniform-Distribution-X-sim-U-a-b" class="headerlink" title="Continuous Uniform Distribution $X \sim U(a,b)$"></a>Continuous Uniform Distribution $X \sim U(a,b)$</h3><p><strong>IF</strong> the <em>probability density function</em> of the continuous uniform distribution $x$ is :</p>
-<p>$$<br>f(x) &#x3D; \begin{cases}<br>\frac{1}{b-a},&amp; a&lt;x&lt;b\\<br>0,&amp; else \\<br>\end{cases}<br>$$</p>
-<p><strong>THEN</strong> we write $X \sim U(a,b)$, and the <em>cumulative distribution function</em> is :</p>
-<p>$$<br>F(x) &#x3D; \begin{cases}<br>0,&amp; x&lt;a\\<br>\frac{x-a}{b-a},&amp; a \leq x &lt; b \\<br>1,&amp; x \geq b<br>\end{cases}<br>$$</p>
-<h3 id="Exponential-distribution-X-sim-E-lambda"><a href="#Exponential-distribution-X-sim-E-lambda" class="headerlink" title="Exponential distribution $X \sim E(\lambda)$"></a>Exponential distribution $X \sim E(\lambda)$</h3><p><strong>IF</strong> the <em>probability density function</em> of the continuous uniform distribution $x$ and the <em>rate parameter</em> $\lambda &gt; 0$ is :</p>
-<p>$$<br>f(x;\lambda) &#x3D; \begin{cases}<br>\lambda e^{-\lambda x},&amp; x\geq 0 \\<br>0,&amp; x&lt;0 \\<br>\end{cases}<br>$$</p>
-<p><strong>THEN</strong> we write $X \sim E(\lambda)$, and the <em>cumulative distribution function</em> is given by :</p>
-<p>$$<br>F(x)&#x3D;\begin{cases}<br>1-e^{-\lambda x},&amp;x \geq 0\\<br>0,&amp;x&lt;0\\<br>\end{cases}<br>$$</p>
-<h3 id="Normal-Distribution-X-sim-N-mu-sigma-2"><a href="#Normal-Distribution-X-sim-N-mu-sigma-2" class="headerlink" title="Normal Distribution $X \sim N(\mu,\sigma^2)$"></a>Normal Distribution $X \sim N(\mu,\sigma^2)$</h3><p><em>Normal distribution</em>, also called <em>Gaussian distribution</em>.</p>
-<p><strong>IF</strong> there is <em>a real-valued random variable X</em>, and the general form of its <em>probability density function</em> is:</p>
-<p>$$<br>f(x)&#x3D;\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}<br>$$</p>
-<p><strong>THEN</strong> We write $X \sim N(\mu,\sigma^2)$. The parameter $\mu$ is the <em>mean or expectation</em> of the distribution (and also its median and mode), while the parameter $\sigma$ is its <em>standard deviation</em>. The <em>variance</em> of the distribution is $\sigma^2$.</p>
-<h3 id="Standard-Normal-Distribution-X-sim-N-0-1"><a href="#Standard-Normal-Distribution-X-sim-N-0-1" class="headerlink" title="Standard Normal Distribution $X \sim N(0,1)$"></a>Standard Normal Distribution $X \sim N(0,1)$</h3><p><strong>IF</strong> $X \sim N(\mu,\sigma^2)$.</p>
-<p><strong>THEN</strong> when $\mu&#x3D;0,\sigma&#x3D;1$, we write $X \sim N(0,1)$. It is described by this <em>probability density function</em>:</p>
-<p>$$<br>\varphi(x) &#x3D; \frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}}<br>$$</p>
-<p>and the <em>cumulative distribution function</em> is given by :</p>
-<p>$$<br>\phi(x) &#x3D; \frac{1}{\sqrt{2\pi}}\int_{-\infty}^x e^{-\frac{t^2}{2}} dt<br>$$</p>
-<p><i><font color="gray">To Be Continued…</font></i></p>
+<h2 id="Tmux"><a href="#Tmux" class="headerlink" title="Tmux"></a>Tmux</h2><p>Tmux is a terminal multiplexer that allows you to access multiple terminal sessions within a single terminal window or remote terminal session.</p>
+<p>In tmux, there is a concept of a session, window, and pane.</p>
+<ul>
+<li>Session: A tmux session is a container for one or more windows.</li>
+<li>Window: A tmux window occupies the entire screen and may be split into rectangular panes.</li>
+<li>Pane: A tmux pane is a rectangular part of a window that runs a specific command.</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/yingxiaowoxx/Blog-img/img/20240706234458.png" srcset="/img/loading.gif" lazyload alt="Session, Window and Pane"></p>
+<p>Here are some basic commands for tmux:</p>
+<h3 id="Cli-commands"><a href="#Cli-commands" class="headerlink" title="Cli commands"></a>Cli commands</h3><table>
+<thead>
+<tr>
+<th align="center">Command</th>
+<th align="center">Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><code>tmux new -s session_name</code></td>
+<td align="center">Create a new session with the name <code>session_name</code></td>
+</tr>
+<tr>
+<td align="center"><code>tmux a -t session_name</code></td>
+<td align="center">Attach to the session <code>session_name</code></td>
+</tr>
+<tr>
+<td align="center"><code>tmux ls</code></td>
+<td align="center">List all sessions</td>
+</tr>
+<tr>
+<td align="center"><code>tmux kill-session -t session_name</code></td>
+<td align="center">Kill the session <code>session_name</code></td>
+</tr>
+</tbody></table>
+<h3 id="Session-management"><a href="#Session-management" class="headerlink" title="Session management"></a>Session management</h3><h1 id="Session-management-1"><a href="#Session-management-1" class="headerlink" title="Session management:"></a>Session management:</h1><table>
+<thead>
+<tr>
+<th align="center">Hotkeys</th>
+<th align="center">Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Ctrl + A</td>
+<td align="center">Prefix Default: Ctrl + B</td>
+</tr>
+<tr>
+<td align="center">[prefix] s</td>
+<td align="center">list sessions</td>
+</tr>
+<tr>
+<td align="center">[prefix] $</td>
+<td align="center">rename the current session</td>
+</tr>
+<tr>
+<td align="center">[prefix] (</td>
+<td align="center">switch to the previous session</td>
+</tr>
+<tr>
+<td align="center">[prefix] )</td>
+<td align="center">switch to the next session</td>
+</tr>
+<tr>
+<td align="center">[prefix] d</td>
+<td align="center">detach the current session</td>
+</tr>
+</tbody></table>
+<h1 id="Window-management"><a href="#Window-management" class="headerlink" title="Window management:"></a>Window management:</h1><table>
+<thead>
+<tr>
+<th align="center">Hotkeys</th>
+<th align="center">Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">[prefix] c</td>
+<td align="center">create a new window</td>
+</tr>
+<tr>
+<td align="center">[prefix] &amp;</td>
+<td align="center">kill the current window</td>
+</tr>
+<tr>
+<td align="center">[prefix] n&#x2F;p</td>
+<td align="center">move to the next &#x2F; previous window</td>
+</tr>
+<tr>
+<td align="center">[prefix] w</td>
+<td align="center">list windows</td>
+</tr>
+<tr>
+<td align="center">[prefix] f</td>
+<td align="center">find window</td>
+</tr>
+<tr>
+<td align="center">[prefix] ,</td>
+<td align="center">rename the current window</td>
+</tr>
+</tbody></table>
+<h1 id="Pane-management"><a href="#Pane-management" class="headerlink" title="Pane management:"></a>Pane management:</h1><p>|  Hotkeys   |                   Description                   |<br>| :——–: | :———————————————: | ——————————————— |<br>|  [prefix]  |                                                 | split the current pane vertically Default: -v |<br>| [prefix] - | split the current pane horizontally Default: -h |<br>| [prefix] x |              kill the current pane              |<br>| [prefix] z |                toggle pane zoom                 |<br>| [prefix] { |        move the current pane to the left        |</p>
+<h1 id="Pane-movement"><a href="#Pane-movement" class="headerlink" title="Pane movement:"></a>Pane movement:</h1><table>
+<thead>
+<tr>
+<th align="center">Hotkeys</th>
+<th align="center">Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">[prefix] Space</td>
+<td align="center">toggle between layouts</td>
+</tr>
+<tr>
+<td align="center">[prefix] h&#x2F;j&#x2F;k&#x2F;l</td>
+<td align="center">move to the left&#x2F;down&#x2F;up&#x2F;right pane</td>
+</tr>
+</tbody></table>
+<h3 id="Copy-mode-Vi-mode"><a href="#Copy-mode-Vi-mode" class="headerlink" title="Copy mode (Vi mode)"></a>Copy mode (Vi mode)</h3><table>
+<thead>
+<tr>
+<th align="center">Hotkeys</th>
+<th align="center">Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">[prefix] [</td>
+<td align="center">enter copy mode</td>
+</tr>
+<tr>
+<td align="center">[prefix] ]</td>
+<td align="center">paste the copied text</td>
+</tr>
+<tr>
+<td align="center">[prefix] v</td>
+<td align="center">start selection Default: -[</td>
+</tr>
+<tr>
+<td align="center">[prefix] y</td>
+<td align="center">copy the selected text Default: -]</td>
+</tr>
+<tr>
+<td align="center">[prefix] &#x2F;</td>
+<td align="center">search forward</td>
+</tr>
+<tr>
+<td align="center">[prefix] ?</td>
+<td align="center">search backward</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Neovim"><a href="#Neovim" class="headerlink" title="Neovim"></a>Neovim</h2><p>NeoVim is a highly customizable text editor that is based on Vim. It is designed to be more extensible and easier to maintain than Vim.</p>
+<p>In Neovim, there is a concept of normal mode, insert mode, and visual mode.</p>
+<ul>
+<li>Normal mode: The default mode for navigating and editing text.</li>
+<li>Insert mode: The mode for inserting text.</li>
+<li>Visual mode: The mode for selecting text.</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/yingxiaowoxx/Blog-img/master/img/20230324150528.png" srcset="/img/loading.gif" lazyload alt="Neovim"></p>
 
                 
               </div>
@@ -330,7 +457,7 @@
     
       <span class="category-chain">
         
-  <a href="/categories/Mathematics/" class="category-chain-item">Mathematics</a>
+  <a href="/categories/Computer-Science/" class="category-chain-item">Computer Science</a>
   
   
 
@@ -345,9 +472,9 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/Math/">#Math</a>
+        <a href="/tags/Computer-Scinece/">#Computer Scinece</a>
       
-        <a href="/tags/Probability-Theory/">#Probability Theory</a>
+        <a href="/tags/Programming/">#Programming</a>
       
     </div>
   
@@ -359,8 +486,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Probability_Theory</div>
-      <div>http://xxblog.net/Mathematics/Probability-Theory/</div>
+      <div>Cheat_Sheet</div>
+      <div>http://xxblog.net/Computer-Science/Cheat-sheet/</div>
     </div>
     <div class="license-meta">
       
@@ -372,7 +499,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>Posted on</div>
-          <div>November 8, 2022</div>
+          <div>July 6, 2024</div>
         </div>
       
       
@@ -409,18 +536,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/Computer-Science/CSapp-Chapter-1/" title="CSapp-Chapter1">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">CSapp-Chapter1</span>
-                        <span class="visible-mobile">Previous</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/Hello-world/Hello_world/" title="Hello_world">
-                        <span class="hidden-mobile">Hello_world</span>
+                      <a href="/Linux/My-workflow/" title="My_workflow">
+                        <span class="hidden-mobile">My_workflow</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
