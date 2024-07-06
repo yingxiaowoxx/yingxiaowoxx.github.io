@@ -1,3 +1,4 @@
+http://xxblog.net/Linux/My-workflow/
 http://xxblog.net/Mathematics/Probability-Theory/
 http://xxblog.net/Hello-world/Hello_world/
 http://xxblog.net/Linux/Linux-Course/
@@ -12,6 +13,8 @@ http://xxblog.net/tags/Math/
 http://xxblog.net/tags/Probability-Theory/
 http://xxblog.net/tags/Hello-world/
 http://xxblog.net/tags/Linux/
+http://xxblog.net/tags/Tmux/
+http://xxblog.net/tags/Neovim/
 http://xxblog.net/categories/Computer-Science/
 http://xxblog.net/categories/Mathematics/
 http://xxblog.net/categories/Hello-world/
