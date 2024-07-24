@@ -26,7 +26,7 @@
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/yingxiaowoxx/Blog-img/img/20240706234458.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/yingxiaowoxx/Blog-img/master/img/20230324150528.png">
 <meta property="article:published_time" content="2024-07-06T15:11:16.000Z">
-<meta property="article:modified_time" content="2024-07-06T16:44:31.809Z">
+<meta property="article:modified_time" content="2024-07-06T16:47:32.677Z">
 <meta property="article:author" content="XX">
 <meta property="article:tag" content="Computer Scinece">
 <meta property="article:tag" content="Programming">
@@ -296,138 +296,165 @@
 <h3 id="Cli-commands"><a href="#Cli-commands" class="headerlink" title="Cli commands"></a>Cli commands</h3><table>
 <thead>
 <tr>
-<th align="center">Command</th>
-<th align="center">Description</th>
+<th align="left">Command</th>
+<th align="left">Description</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="center"><code>tmux new -s session_name</code></td>
-<td align="center">Create a new session with the name <code>session_name</code></td>
+<td align="left"><code>tmux new -s session_name</code></td>
+<td align="left">Create a new session with the name <code>session_name</code></td>
 </tr>
 <tr>
-<td align="center"><code>tmux a -t session_name</code></td>
-<td align="center">Attach to the session <code>session_name</code></td>
+<td align="left"><code>tmux a -t session_name</code></td>
+<td align="left">Attach to the session <code>session_name</code></td>
 </tr>
 <tr>
-<td align="center"><code>tmux ls</code></td>
-<td align="center">List all sessions</td>
+<td align="left"><code>tmux ls</code></td>
+<td align="left">List all sessions</td>
 </tr>
 <tr>
-<td align="center"><code>tmux kill-session -t session_name</code></td>
-<td align="center">Kill the session <code>session_name</code></td>
+<td align="left"><code>tmux kill-session -t session_name</code></td>
+<td align="left">Kill the session <code>session_name</code></td>
 </tr>
 </tbody></table>
 <h3 id="Session-management"><a href="#Session-management" class="headerlink" title="Session management"></a>Session management</h3><h1 id="Session-management-1"><a href="#Session-management-1" class="headerlink" title="Session management:"></a>Session management:</h1><table>
 <thead>
 <tr>
-<th align="center">Hotkeys</th>
-<th align="center">Description</th>
+<th align="left">Hotkeys</th>
+<th align="left">Description</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="center">Ctrl + A</td>
-<td align="center">Prefix Default: Ctrl + B</td>
+<td align="left">Ctrl + A</td>
+<td align="left">Prefix Default: Ctrl + B</td>
 </tr>
 <tr>
-<td align="center">[prefix] s</td>
-<td align="center">list sessions</td>
+<td align="left">[prefix] s</td>
+<td align="left">list sessions</td>
 </tr>
 <tr>
-<td align="center">[prefix] $</td>
-<td align="center">rename the current session</td>
+<td align="left">[prefix] $</td>
+<td align="left">rename the current session</td>
 </tr>
 <tr>
-<td align="center">[prefix] (</td>
-<td align="center">switch to the previous session</td>
+<td align="left">[prefix] (</td>
+<td align="left">switch to the previous session</td>
 </tr>
 <tr>
-<td align="center">[prefix] )</td>
-<td align="center">switch to the next session</td>
+<td align="left">[prefix] )</td>
+<td align="left">switch to the next session</td>
 </tr>
 <tr>
-<td align="center">[prefix] d</td>
-<td align="center">detach the current session</td>
+<td align="left">[prefix] d</td>
+<td align="left">detach the current session</td>
 </tr>
 </tbody></table>
 <h1 id="Window-management"><a href="#Window-management" class="headerlink" title="Window management:"></a>Window management:</h1><table>
 <thead>
 <tr>
-<th align="center">Hotkeys</th>
-<th align="center">Description</th>
+<th align="left">Hotkeys</th>
+<th align="left">Description</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="center">[prefix] c</td>
-<td align="center">create a new window</td>
+<td align="left">[prefix] c</td>
+<td align="left">create a new window</td>
 </tr>
 <tr>
-<td align="center">[prefix] &amp;</td>
-<td align="center">kill the current window</td>
+<td align="left">[prefix] &amp;</td>
+<td align="left">kill the current window</td>
 </tr>
 <tr>
-<td align="center">[prefix] n&#x2F;p</td>
-<td align="center">move to the next &#x2F; previous window</td>
+<td align="left">[prefix] n&#x2F;p</td>
+<td align="left">move to the next &#x2F; previous window</td>
 </tr>
 <tr>
-<td align="center">[prefix] w</td>
-<td align="center">list windows</td>
+<td align="left">[prefix] w</td>
+<td align="left">list windows</td>
 </tr>
 <tr>
-<td align="center">[prefix] f</td>
-<td align="center">find window</td>
+<td align="left">[prefix] f</td>
+<td align="left">find window</td>
 </tr>
 <tr>
-<td align="center">[prefix] ,</td>
-<td align="center">rename the current window</td>
+<td align="left">[prefix] ,</td>
+<td align="left">rename the current window</td>
 </tr>
 </tbody></table>
-<h1 id="Pane-management"><a href="#Pane-management" class="headerlink" title="Pane management:"></a>Pane management:</h1><p>|  Hotkeys   |                   Description                   |<br>| :——–: | :———————————————: | ——————————————— |<br>|  [prefix]  |                                                 | split the current pane vertically Default: -v |<br>| [prefix] - | split the current pane horizontally Default: -h |<br>| [prefix] x |              kill the current pane              |<br>| [prefix] z |                toggle pane zoom                 |<br>| [prefix] { |        move the current pane to the left        |</p>
+<h1 id="Pane-management"><a href="#Pane-management" class="headerlink" title="Pane management:"></a>Pane management:</h1><table>
+<thead>
+<tr>
+<th align="left">Hotkeys</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">[prefix] |</td>
+<td align="left">split the current pane vertically Default: -v</td>
+</tr>
+<tr>
+<td align="left">[prefix] -</td>
+<td align="left">split the current pane horizontally Default: -h</td>
+</tr>
+<tr>
+<td align="left">[prefix] x</td>
+<td align="left">kill the current pane</td>
+</tr>
+<tr>
+<td align="left">[prefix] z</td>
+<td align="left">toggle pane zoom</td>
+</tr>
+<tr>
+<td align="left">[prefix] {</td>
+<td align="left">move the current pane to the left</td>
+</tr>
+</tbody></table>
 <h1 id="Pane-movement"><a href="#Pane-movement" class="headerlink" title="Pane movement:"></a>Pane movement:</h1><table>
 <thead>
 <tr>
-<th align="center">Hotkeys</th>
-<th align="center">Description</th>
+<th align="left">Hotkeys</th>
+<th align="left">Description</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="center">[prefix] Space</td>
-<td align="center">toggle between layouts</td>
+<td align="left">[prefix] Space</td>
+<td align="left">toggle between layouts</td>
 </tr>
 <tr>
-<td align="center">[prefix] h&#x2F;j&#x2F;k&#x2F;l</td>
-<td align="center">move to the left&#x2F;down&#x2F;up&#x2F;right pane</td>
+<td align="left">[prefix] h&#x2F;j&#x2F;k&#x2F;l</td>
+<td align="left">move to the left&#x2F;down&#x2F;up&#x2F;right pane</td>
 </tr>
 </tbody></table>
 <h3 id="Copy-mode-Vi-mode"><a href="#Copy-mode-Vi-mode" class="headerlink" title="Copy mode (Vi mode)"></a>Copy mode (Vi mode)</h3><table>
 <thead>
 <tr>
-<th align="center">Hotkeys</th>
-<th align="center">Description</th>
+<th align="left">Hotkeys</th>
+<th align="left">Description</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="center">[prefix] [</td>
-<td align="center">enter copy mode</td>
+<td align="left">[prefix] [</td>
+<td align="left">enter copy mode</td>
 </tr>
 <tr>
-<td align="center">[prefix] ]</td>
-<td align="center">paste the copied text</td>
+<td align="left">[prefix] ]</td>
+<td align="left">paste the copied text</td>
 </tr>
 <tr>
-<td align="center">[prefix] v</td>
-<td align="center">start selection Default: -[</td>
+<td align="left">[prefix] v</td>
+<td align="left">start selection Default: -[</td>
 </tr>
 <tr>
-<td align="center">[prefix] y</td>
-<td align="center">copy the selected text Default: -]</td>
+<td align="left">[prefix] y</td>
+<td align="left">copy the selected text Default: -]</td>
 </tr>
 <tr>
-<td align="center">[prefix] &#x2F;</td>
-<td align="center">search forward</td>
+<td align="left">[prefix] &#x2F;</td>
+<td align="left">search forward</td>
 </tr>
 <tr>
-<td align="center">[prefix] ?</td>
-<td align="center">search backward</td>
+<td align="left">[prefix] ?</td>
+<td align="left">search backward</td>
 </tr>
 </tbody></table>
 <hr>
