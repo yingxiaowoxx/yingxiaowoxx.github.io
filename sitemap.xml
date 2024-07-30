@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xxblog.net/Life/Evening-Rhythms-Games-GYMs-and-Drinks/</loc>
+    
+    <lastmod>2024-07-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://xxblog.net/Computer-Science/Cheat-sheet/</loc>
     
     <lastmod>2024-07-06</lastmod>
@@ -85,7 +94,7 @@
 
   <url>
     <loc>http://xxblog.net/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <lastmod>2024-07-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -93,56 +102,56 @@
   
   <url>
     <loc>http://xxblog.net/tags/Computer-Scinece/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <lastmod>2024-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xxblog.net/tags/Programming/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <lastmod>2024-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xxblog.net/tags/Math/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <lastmod>2024-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xxblog.net/tags/Probability-Theory/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <lastmod>2024-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xxblog.net/tags/Hello-world/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <lastmod>2024-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xxblog.net/tags/Linux/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <lastmod>2024-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xxblog.net/tags/Tmux/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <lastmod>2024-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xxblog.net/tags/Neovim/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <lastmod>2024-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -151,28 +160,35 @@
   
   <url>
     <loc>http://xxblog.net/categories/Computer-Science/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <lastmod>2024-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xxblog.net/categories/Mathematics/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <lastmod>2024-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xxblog.net/categories/Hello-world/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <lastmod>2024-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xxblog.net/categories/Linux/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <lastmod>2024-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xxblog.net/categories/Life/</loc>
+    <lastmod>2024-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
