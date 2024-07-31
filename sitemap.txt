@@ -17,6 +17,7 @@ http://xxblog.net/tags/Hello-world/
 http://xxblog.net/tags/Linux/
 http://xxblog.net/tags/Tmux/
 http://xxblog.net/tags/Neovim/
+http://xxblog.net/tags/Drinks/
 http://xxblog.net/categories/Computer-Science/
 http://xxblog.net/categories/Mathematics/
 http://xxblog.net/categories/Hello-world/
